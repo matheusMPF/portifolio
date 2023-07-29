@@ -1,0 +1,9 @@
+@import './variables.css';
+@import './global.css';
+
+@import './Components/navBar.css';
+@import './Components/header.css';
+@import './Components/about.css';
+@import './Components/skills.css';
+@import './Components/projects.css';
+@import './Components/footer.css';
