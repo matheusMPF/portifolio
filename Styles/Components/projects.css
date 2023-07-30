@@ -8,6 +8,10 @@
     text-align: center;
     margin: 0 auto 6rem;
   }
+
+  .projects .projects__content h2{
+   padding-bottom: 2rem;
+  }
   
   .projects ul li {
     display: flex;

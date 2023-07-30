@@ -13,6 +13,8 @@
   body {
     font-size: 1.6rem;
     margin-top: 15rem;
+    background-color: #242424;
+    color: white;
   }
   
   ul {

@@ -4,17 +4,20 @@
     left: 0;
     width: 100%;
     z-index: 10;
-    background-color: var(--white);
+    background-color: #1b1b1b;
+    color: #fff;
   }
   
   .navbar .navbar__content {
     padding: 3rem 4rem 1rem;
     display: flex;
     justify-content: space-between;
+    list-style: none;
   }
   
   .navbar .navbar__content .navbar__links li {
     display: inline-block;
+    margin-bottom: 1rem;
   }
   
   .navbar .navbar__content .navbar__links li:not(:last-of-type) {
@@ -24,14 +27,35 @@
   .navbar .navbar__content .navbar__links a {
     padding: 1rem;
     display: inline-block;
+    transition: color 0.5s;
+    color: #fff;
+    position: relative;
+  }
+
+  .navbar .navbar__content .navbar__links li a::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #00ff78;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+    transform-origin: right;
   }
   
-  .navbar .navbar__content .navbar__links a:hover {
-    color: var(--tertiary-color);
+  .navbar .navbar__content .navbar__links li a:hover {
+    color: #00ff78;
+  }
+
+  .navbar .navbar__content .navbar__links li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
   }
   
   .navbar.active {
-    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.1rem 0.5rem #00ff784d;
   }
   
   .navbar .navbar__content .navbar__mobile,
@@ -58,19 +82,25 @@
     .navbar .navbar__content .navbar__mobile.active .mobile__links {
       display: flex;
       flex-direction: column;
-      background-color: var(--white);
+      background-color: white;
       width: 100%;
       position: absolute;
       top: 98%;
       left: 0;
       padding: 1rem 0;
-      box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.5);
       z-index: 1;
     }
   
     .navbar .navbar__content .navbar__mobile.active .mobile__links li {
       margin-right: 0;
+      transition: 0.3s ease-in-out;
     }
+
+    .navbar .navbar__content .navbar__mobile.active .mobile__links li:hover {
+        
+        background-color: rgba(0, 255, 119, 0.589);
+      }
   
     .navbar .navbar__content .navbar__mobile.active .mobile__links li a {
       padding: 1rem;

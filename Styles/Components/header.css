@@ -6,15 +6,27 @@ header {
     scroll-margin-top: 20rem;
   }
   
-  header .header__left {
+  header .header__left h1 {
     max-width: 62rem;
     flex: 1;
+    color: white;
   }
   
   header .header__left p {
     margin-top: 2rem;
     margin-bottom: 4rem;
     max-width: 50rem;
+  }
+
+  header .header__left .btn{
+    background-color: #3c415c;
+    transition: 0.5s ease-in-out;
+  }
+
+  header .header__left .btn:hover{
+    background-color: #00ff78;
+    color: #000000;
+    
   }
   
   header .header__right .header__image {
@@ -27,16 +39,16 @@ header {
     display: block;
     width: 100%;
     height: 100%;
-    border: 1px solid var(--tertiary-color);
+    border: 1px solid #00ff78;;
     position: absolute;
     top: -1.5rem;
-    right: -1.5rem;
-    border-radius: 0.5rem;
+    right: -1.2rem;
+    border-radius: 0.8rem;
     z-index: -1;
   }
   
   header .header__right .header__image .matheus {
-    border-radius: 0.5rem;
+    border-radius: 0.8rem;
     min-width: 25rem;
     max-width: 30rem;
   }

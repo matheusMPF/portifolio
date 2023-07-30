@@ -9,6 +9,10 @@
     max-width: 40rem;
     flex: 1;
   }
+
+  .about__left h2{
+    color: white;
+  }
   
   .about .about__left p {
     margin: 1rem 0 2rem;
@@ -30,6 +34,10 @@
   .about .about__right {
     flex: 1;
     max-width: 66rem;
+  }
+
+  .about .about__right h3{
+    margin-bottom: 3rem;
   }
   
   @media only screen and (max-width: 768px) {

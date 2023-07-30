@@ -7,6 +7,12 @@
     padding: 6rem 4rem;
     text-align: center;
   }
+
+.skills .skills__content h2,
+.skills .skills__content h3,
+.skills .skills__content p{
+    color: black;
+}
   
   .skills .skills__content .description {
     max-width: 56rem;
