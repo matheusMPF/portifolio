@@ -82,7 +82,7 @@
     .navbar .navbar__content .navbar__mobile.active .mobile__links {
       display: flex;
       flex-direction: column;
-      background-color: white;
+      background-color: rgb(65, 65, 65);
       width: 100%;
       position: absolute;
       top: 98%;
@@ -98,8 +98,8 @@
     }
 
     .navbar .navbar__content .navbar__mobile.active .mobile__links li:hover {
-        
-        background-color: rgba(0, 255, 119, 0.589);
+        color: black;
+        background-color: rgb(0, 255, 119);
       }
   
     .navbar .navbar__content .navbar__mobile.active .mobile__links li a {
