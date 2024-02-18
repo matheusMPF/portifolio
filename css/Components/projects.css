@@ -1,0 +1,30 @@
+.section-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.section-projects .title{
+    text-align: center;
+}
+
+.section-projects .title h2{
+    font-size: 38px;
+    color: #f0f0f0;
+}
+
+.section-projects .title p{
+    color: #cfcfcf;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.projects .card-project{
+    display: flex;
+    justify-content: space-around;
+}

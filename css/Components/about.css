@@ -1,0 +1,43 @@
+/* About */
+
+.section-about{
+    display: flex;
+    gap: 5rem;
+    color: #f0f0f0;
+}
+
+/* Container left */
+
+.about-left{
+    width: 100%;
+}
+
+.about-left h2,
+.about-right h2{
+    margin-bottom: 30px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.about-left p,
+.about-right p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 30px;
+    color: #cfcfcf;
+
+}
+
+.social-media{
+    display: flex;
+    gap: 30px;
+}
+
+.social-media img{
+    width: 38px;
+    transition: all 0.3s;
+}
+
+.social-media img:hover{
+    transform: scale(1.15);
+}

@@ -1,0 +1,57 @@
+.section-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+}
+
+.section-skills .title{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.section-skills .title h2{
+    font-size: 38px;
+}
+
+.section-skills .title p{
+    color: #cfcfcf;
+}
+
+/* Skills */
+
+.skills{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-skill{
+    text-align: center;
+    width: 250px;   
+}
+
+.card-skill img{
+    width: 55px;
+    padding: 5px;
+    box-shadow: 0 0 30px #000;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+}
+
+.card-skill h3{
+    color: #f0f0f0;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.card-skill p{
+    color: #cfcfcf;
+    line-height: 25px;
+}
